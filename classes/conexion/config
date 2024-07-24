@@ -1,0 +1,9 @@
+{
+    "conexion":{
+        "server" : "localhost",
+        "user" : "root",
+        "password" : "",
+        "database" : "plastapi",
+        "port" : "3306"
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "Version":"1.3",
+  "MaxResponseStimulus":"16",
+  "MaxStimulus":"60",
+  "MaxDifficulty":"100",
+  "HiPercentage":"70",
+  "LowPercentage":"65",
+  "TimeToResponse":"2.5"
+
+}
