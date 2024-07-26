@@ -213,7 +213,7 @@ class pacientes extends conexion {
     public function modificarPaciente($json){
         $paciente = json_decode($json,true);
 
-        $query = "UPDATE userdata SET Score='" . $paciente['Score'] . "', ResponseTime='" . $paciente['ResponseTime'] . "', UTest='" . $paciente['UTest'] . "', UCompleted='"
+        $query = "UPDATE userdata SET Operado = '" . $paciente['Operado'] . "', Grupo = '" . $paciente['Grupo'] . "', Score='" . $paciente['Score'] . "', ResponseTime='" . $paciente['ResponseTime'] . "', UTest='" . $paciente['UTest'] . "', UCompleted='"
          . $paciente['UCompleted'] . "', Percentage='" . $paciente['Percentage'] . "', Difficulty='" . $paciente['Difficulty'] .
           "', LastRoundID='" . $paciente['LastRoundID'] . "', TestControlledCount='" . $paciente['TestControlledCount'] . "'WHERE UserID='" . $paciente['UserID'] . "'";
         $respuesta = parent::nonQuery($query);   
